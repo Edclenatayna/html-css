@@ -80,9 +80,24 @@ section.imagem{
 }
 
 section.imagem > p{
-    display: block;
+    display:inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.267);
+    text-shadow: 1px 1px 0px black;
+}
+
+#img1{
+    background-position:right center;
+    background-attachment: fixed;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+}
+
+#img2{
+    background-attachment: fixed;
+    background-position: right center;
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
 }
 
 footer{
