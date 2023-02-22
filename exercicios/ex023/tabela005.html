@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 600px;
+            border-collapse: collapse;
+        }
+
+        th{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .centro{
+            text-align: center;
+        }
+
+        .cnome{
+            background-color: aquamarine;
+        }
+        
+        .csexo{
+            background-color: rgb(27, 163, 163);
+        }
+        .cprof{
+            background-color: aquamarine
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="2">
+            <col class="cprof">
+        </colgroup>
+        <tr>
+            <th class="centro">Nome</th>
+            <th class="centro">Sexo</th>
+            <th class="centro">Idade</th>
+            <th class="centro">Profissão</th>
+        </tr>
+        <tr>
+            <th>Maria</th>
+            <td>F</td>
+            <td>39</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <th>Maria Fernanda</th>
+            <td>F</td>
+            <td>42</td>
+            <td>Cozinheira</td>
+        </tr>
+        <tr>
+            <th>Gustavo</th>
+            <td>H</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <th>Ana Maria</th>
+            <td>F</td>
+            <td>43</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <th>Lucas</th>
+            <td>H</td>
+            <td>30</td>
+            <td>Nutricionista</td>
+        </tr>
+        <tr>
+            <th>Maria</th>
+            <td>F</td>
+            <td>29</td>
+            <td>Professora</td>
+        </tr>
+
+    </table>
+</body>
+</html>
